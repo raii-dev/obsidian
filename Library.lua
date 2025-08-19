@@ -5249,7 +5249,7 @@ function Library:CreateWindow(WindowInfo)
         do
             local Lines = {
                 {
-                    Position = UDim2.fromOffset(0, 38),
+                    Position = UDim2.fromOffset(0, 32),
                     Size = UDim2.new(1, 0, 0, 1),
                 },
                 {
@@ -5288,7 +5288,7 @@ function Library:CreateWindow(WindowInfo)
         --// Top Bar \\-
         local TopBar = New("Frame", {
             BackgroundTransparency = 1,
-            Size = UDim2.new(1, 0, 0, 38),
+            Size = UDim2.new(1, 0, 0, 32),
             Parent = MainFrame,
         })
         Library:MakeDraggable(MainFrame, TopBar, false, true)
