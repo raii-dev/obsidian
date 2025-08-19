@@ -5288,7 +5288,7 @@ function Library:CreateWindow(WindowInfo)
         --// Top Bar \\-
         local TopBar = New("Frame", {
             BackgroundTransparency = 1,
-            Size = UDim2.new(1, 0, 0, 48),
+            Size = UDim2.new(1, 0, 0, 28),
             Parent = MainFrame,
         })
         Library:MakeDraggable(MainFrame, TopBar, false, true)
